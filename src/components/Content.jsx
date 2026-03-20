@@ -101,18 +101,27 @@ function Content() {
 
       {/* About */}
       <section id="about" className="py-20 px-6">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-stone-900">About Me</h2>
-          <p className="mt-6 text-stone-500 leading-relaxed">
-            I'm Harrison James, a fully qualified and NICEIC approved electrician with over 10 years
-            of experience in domestic and light commercial electrical work. I set up on my own to
-            deliver the kind of honest, high-quality service that's often hard to find: Turning up
-            on time, explaining the work clearly, and leaving your home as I found it.
-          </p>
-          <p className="mt-4 text-stone-500 leading-relaxed">
-            Whether it's a small repair or a full rewire, every job gets the same attention to detail
-            and fully documented certification on completion.
-          </p>
+        <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
+          <div className="w-full md:w-100 h-120 rounded-lg shrink-0 bg-stone-200 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-32 h-32 text-stone-400" viewBox="0 0 24 24" fill="currentColor">
+              <path fillRule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clipRule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <h2 className="text-3xl font-bold text-stone-900">About Me</h2>
+            <p className="mt-6 text-stone-500 leading-relaxed">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+              sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+              est laborum
+            </p>
+            <p className="mt-4 text-stone-500 leading-relaxed">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+              ut labore et dolore magna aliqua.
+            </p>
+          </div>
         </div>
       </section>
 
