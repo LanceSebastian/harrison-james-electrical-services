@@ -45,10 +45,10 @@ function Content() {
             consumer units, EV chargers, and more.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="#contact" className="bg-primary hover:opacity-90 text-white font-medium px-6 py-3 rounded transition-opacity">
+            <a href="#contact" className="bg-primary hover:bg-yellow-500 text-white font-medium px-6 py-3 rounded transition-colors">
               Get a Free Quote
             </a>
-            <a href="#services" className="bg-white border border-stone-300 hover:border-stone-400 text-stone-700 font-medium px-6 py-3 rounded transition-colors">
+            <a href="#services" className="bg-white border border-stone-300 hover:bg-yellow-500 hover:border-yellow-500 hover:text-white text-stone-700 font-medium px-6 py-3 rounded transition-colors">
               View Services
             </a>
           </div>
@@ -56,7 +56,7 @@ function Content() {
       </section>
 
       {/* Services */}
-      <section id="services" className="py-20 px-6">
+      <section id="services" className="py-20 px-6 scroll-mt-25">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold text-stone-900 text-center">Services</h2>
           <p className="mt-3 text-stone-500 text-center max-w-xl mx-auto">
@@ -100,7 +100,7 @@ function Content() {
       </section>
 
       {/* About */}
-      <section id="about" className="py-20 px-6">
+      <section id="about" className="py-20 px-6 scroll-mt-25">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-100 h-120 rounded-lg shrink-0 bg-stone-200 flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-32 h-32 text-stone-400" viewBox="0 0 24 24" fill="currentColor">
@@ -126,7 +126,7 @@ function Content() {
       </section>
 
       {/* Testimonials */}
-      <section className="bg-stone-50 border-y border-stone-200 py-20 px-6">
+      <section id="testimonials" className="bg-stone-50 border-y border-stone-200 py-20 px-6 scroll-mt-25">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold text-stone-900 text-center">What Customers Say</h2>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -144,7 +144,7 @@ function Content() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="py-20 px-6">
+      <section id="contact" className="py-20 px-6 scroll-mt-25">
         
         <div className="flex flex-wrap justify-around w-full">
           
