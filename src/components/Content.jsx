@@ -67,7 +67,7 @@ function Content() {
               <div key={s.title} className="border border-stone-200 rounded-lg p-6 flex flex-col">
                 <h3 className="font-semibold text-stone-800 text-lg">{s.title}</h3>
                 <p className="mt-2 text-sm text-stone-500">{s.description}</p>
-                <ul className="mt-4 space-y-1.5">
+                <ul className="mt-4 mb-4 space-y-1.5">
                   {s.items.map((item) => (
                     <li key={item} className="flex items-center gap-2 text-sm text-stone-600">
                       <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
@@ -75,7 +75,7 @@ function Content() {
                     </li>
                   ))}
                 </ul>
-                <a href="#contact" className="mt-6 text-sm text-primary font-medium hover:underline">
+                <a href="#contact" className="mt-auto text-sm text-primary font-medium hover:underline">
                   Enquire →
                 </a>
               </div>
