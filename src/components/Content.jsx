@@ -131,9 +131,12 @@ function Content() {
           <h2 className="text-3xl font-bold text-stone-900 text-center">What Customers Say</h2>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
             {testimonials.map((t) => (
-              <div key={t.name} className="bg-white border border-stone-200 rounded-lg p-6">
-                <p className="text-stone-600 text-sm leading-relaxed">"{t.text}"</p>
-                <p className="mt-4 text-sm font-semibold text-stone-800">{t.name}</p>
+              <div key={t.name} className="flex flex-col bg-white border border-stone-200 rounded-lg p-6">
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-primary mb-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.301-3.995 5.847h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.301-3.996 5.847h3.983v10h-9.983z"/>
+                </svg>
+                <p className="text-stone-600 text-sm leading-relaxed mb-2">"{t.text}"</p>
+                <p className="mt-auto text-sm font-semibold text-stone-800">{t.name}</p>
               </div>
             ))}
           </div>
