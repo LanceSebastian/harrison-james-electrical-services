@@ -5,7 +5,7 @@ function Navbar() {
     <header className="sticky top-0 z-50 bg-white border-b border-stone-200">
       <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="/" className="text-lg font-semibold text-stone-800 tracking-tight">
-          <img src="/logo.avif"></img>
+          <img src="./logo.avif" className="h-10 w-auto" />
         </a>
 
         <ul className="hidden md:flex items-center gap-8 text-sm text-stone-600">
