@@ -59,6 +59,7 @@ function Footer() {
         <div className="mt-10 pt-6 border-t border-stone-200 flex flex-col sm:flex-row items-center justify-between gap-2 text-stone-400 text-xs">
           <span>© {new Date().getFullYear()} Harrison James Electrical Services LTD</span>
           <span>Serving Burnham-on-Sea & surrounding Somerset areas</span>
+          <span>Made by Lance Sebastian</span>
         </div>
 
       </div>
