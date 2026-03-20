@@ -1,9 +1,15 @@
+import Navbar from './components/Navbar'
+import Content from './components/Content'
+import Footer from './components/Footer'
+
 function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <h1 className="text-3xl font-bold text-center py-8">
-        Harrison James Electrical Services
-      </h1>
+    <div className="grid grid-rows-[auto_1fr_auto] min-h-screen bg-white">
+      <Navbar/>
+      <main>
+        <Content/>
+      </main>
+      <Footer/>
     </div>
   )
 }
